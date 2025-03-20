@@ -3,7 +3,10 @@ public with sharing class IntegrationConfigController {
     private static Map<String, String> regionToUrl = new Map<String, String>{
         'US' => 'https://us1.api.clevertap.com/1/upload',
         'IN' => 'https://in1.api.clevertap.com/1/upload',
-        'EU' => 'https://eu1.api.clevertap.com/1/upload'
+        'EU' => 'https://api.clevertap.com/1/upload',
+        'SG' => 'https://sg1.api.clevertap.com/1/upload',
+        'UAE' => 'https://mec1.api.clevertap.com/1/upload',
+        'ID' => 'https://aps3.api.clevertap.com/1/upload'
     };
     
     @AuraEnabled(cacheable=true)

@@ -13,23 +13,33 @@
             <sorted>false</sorted>
             <value>
                 <fullName>US</fullName>
-                <default>true</default>
-                <label>US</label>
+                <default>false</default>
+                <label>United States</label>
             </value>
             <value>
                 <fullName>EU</fullName>
-                <default>false</default>
-                <label>EU</label>
+                <default>true</default>
+                <label>Europe (Default)</label>
             </value>
             <value>
                 <fullName>IN</fullName>
                 <default>false</default>
-                <label>IN</label>
+                <label>India</label>
             </value>
             <value>
                 <fullName>SG</fullName>
                 <default>false</default>
-                <label>SG</label>
+                <label>Singapore</label>
+            </value>
+            <value>
+                <fullName>UAE</fullName>
+                <default>false</default>
+                <label>Middle East (UAE)</label>
+            </value>
+            <value>
+                <fullName>ID</fullName>
+                <default>false</default>
+                <label>Indonesia</label>
             </value>
         </valueSetDefinition>
     </valueSet>
