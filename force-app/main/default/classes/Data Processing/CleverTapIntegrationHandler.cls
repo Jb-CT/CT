@@ -21,7 +21,6 @@ public with sharing class CleverTapIntegrationHandler {
      * @param leads The list of Lead records to process.
      */
     public static void processLeads(List<Lead> leads) {
-        System.debug('Trigger.new contains: ' + Trigger.new);
         processRecords(leads);
     }
     
